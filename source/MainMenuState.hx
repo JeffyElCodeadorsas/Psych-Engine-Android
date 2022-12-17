@@ -39,7 +39,7 @@ class MainMenuState extends MusicBeatState
 
 	//var key_editors:FlxButton;
 	
-	var optionShit:Array<String> = ['story_mode', 'freeplay', #if ACHIEVEMENTS_ALLOWED 'awards', #end 'credits', #if !switch 'donate', #end 'options'/*, 'lol'*/];
+	var optionShit:Array<String> = ['story_mode', 'freeplay', 'credits', 'donate', 'options'];
 
 	var magenta:FlxSprite;
 	var camFollow:FlxObject;
